@@ -6,10 +6,6 @@ body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
-.brand {
-  text-align: center;
-  font-size: 70px;
-}
 hr {
   max-width: 70%;
 }
@@ -34,8 +30,4 @@ h3 {
 .btn{
   margin-bottom: 40px;
 }  
-.brand {
-  text-align: center;
-  font-size: 40px;
-}
 }

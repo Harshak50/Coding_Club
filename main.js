@@ -14,7 +14,7 @@ var config = {
         // User is signed in.
       document.getElementById("login-div").style.display = "none";
       document.getElementById("signup-div").style.display = "none";
-      document.location.href = "Home.html";
+      document.location.href = "home.html";
      
   
      }

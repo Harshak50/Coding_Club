@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <title>Tkr Coding Club</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
 </script>
 <script> 
 $(function(){
-  $("#header").load("Navbar/header.html"); 
-  $("#title").load("Navbar/title.html"); 
-  $("#footer").load("Navbar/footer.html"); 
+  $("#header").load("../Navbar/header.html"); 
+  $("#title").load("../Navbar/title.html"); 
+  $("#footer").load("../Navbar/footer.html"); 
 });
 </script> 
 </head>
@@ -30,6 +30,8 @@ $(function(){
     <img src="Images/home.svg" class="home_svg" style="height: 300px; padding-top: 30PX;" alt="">
   </div>
 </div>
+
+<!-- login -->
   <div id="login-div" class="form-signin text-center ">
     <h4 class=" mb-3 fw-normal">Login / Signup</h4>
     <input type="name" id="inputName" class="form-control" placeholder=" UserName (optional)" required="" autofocus="">
