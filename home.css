@@ -8,7 +8,7 @@ body {
 }
 .brand {
   text-align: center;
-  font-size: 70px;
+  font-size: 40px;
 }
 hr {
   max-width: 70%;
@@ -34,8 +34,4 @@ h3 {
 .btn{
   margin-bottom: 40px;
 }  
-.brand {
-  text-align: center;
-  font-size: 40px;
-}
 }
