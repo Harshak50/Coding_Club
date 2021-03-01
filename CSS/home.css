@@ -31,4 +31,9 @@ h3 {
 .btn{
   margin-bottom: 40px;
 }  
+.row  .hr{
+  max-width: 70%;
+margin: auto;
+margin-bottom: 30px;
+}
 }
